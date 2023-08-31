@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+  config:
+    import:
+      - classpath:config/config-cors.yml
+      - classpath:config/config-oauth2.yml
+      - classpath:config/config-jwt.yml

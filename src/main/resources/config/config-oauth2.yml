@@ -1,0 +1,4 @@
+oauth2:
+  authorized-redirect-uris:
+    - http://localhost:3000/oauth/redirect # react (not using)
+    - http://localhost:5173/oauth/redirect # vite
